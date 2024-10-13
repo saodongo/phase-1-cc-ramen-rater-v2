@@ -4,7 +4,9 @@ import fs from 'fs'
 import path from 'path'
 import { fireEvent } from '@testing-library/dom'
 
-//! Set the data
+// index.test.js
+import { displayRamens } from './index'; // Adjust the path accordingly
+
 
 const testResponseData = [
     {
